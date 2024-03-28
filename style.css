@@ -1,105 +1,120 @@
 * {
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-
-ul {
-	list-style: none;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin: 0;
 	padding: 0;
-	margin-top: 20px;
+	box-sizing: border-box;
 }
 
-li {
-	padding: 5px;
-	background-color: white;
-	border-radius: 5px;
-	margin-bottom: 5px;
+
+.container {
+	flex-direction: column;
+	align-items: left;
+	position: relative;
+	display: flex;
 }
 
-body {
-	background-image: linear-gradient(#e5eaa4, #69a5a4);
+
+.background {
+	position: fixed;
+
+	width: 100%;
+	height: 100%;
+
+	background-image: linear-gradient(to left, transparent, rgba(0, 0, 0, 0.341)), url(./sources/background.jpg);
 	background-repeat: no-repeat;
-	width: auto;
-	height: 98.2vh;
+	background-size: cover;
+}
+
+
+.lista {
+	position: absolute;
+	left: 10%;
+	top: 30%;
+	flex-grow: 0;
+	color: white;
 
 }
 
-li:hover {
-	background-color: white;
+.formulario label,
+.formulario input,
+.formulario button,
+.formulario ul {
+	display: inline-block;
+	margin-left: 70%;
+	margin-top: 2%;
 }
 
-.form-control {
-	margin: 15px 0px;
-	font-size: 18px;
-	background-color: white;
-	border-radius: 20px;
+.txt {
+	width: 300px;
 	border: none;
-	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
-	color: #616161;
-	padding: 5px 10px;
-
+	height: 28px;
+	font-size: 18px;
+	color: black;
+	background-color: rgba(255, 255, 255, 0.563);
 }
 
-.form-control:hover {
-	margin: 15px 0px;
-	font-size: 18px;
-	background-color: white;
-	border-radius: 20px;
-	border: none;
-	box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.07);
-	color: #616161;
-	padding: 5px 10px;
-
-
+.txt:hover {
+	color: black;
+	background-color: rgba(255, 255, 255, 0.79);
 }
 
 .cabecario {
-	text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.07);
-	display: inline-block;
-	text-align: center;
-	color: white;
+	color: rgb(255, 255, 255);
 	font-size: 24px;
+	margin-left: 6%;
+	margin-top: 5%;
 }
 
-.buscarTxt {
-	color: white;
-}
-
-.Fila {
-	color: white;
+.fila {
+	color: rgb(255, 255, 255);
+	margin-top: 20px;
+	margin-left: 60px;
+	margin-top: 20px;
 }
 
 .botao {
-	color: white;
 	font-weight: bold;
 	font-size: 14px;
 	border-radius: 8px;
-	padding: 8px;
+	padding: 12px 0px;
 	border: none;
-	background-color: #ffffff4d;
-	box-shadow: 3px 3px 10px rgba(182, 182, 182, 0.15);
+	background-color: #3d5c9377;
+	color: white;
+	cursor: pointer;
+	/* Adicionado para indicar interatividade */
+	width: 140px;
+}
+
+.botoes {
+	margin-left: 70%;
+}
+
+.botoes button {
+	display: inline-block;
+	margin-left: 4px;
+	/* Adicionado margem direita entre os botões */
+}
+
+.botoesBuscar {
+	margin: 0;
+	margin-top: -1%;
 }
 
 .botao:hover {
-	color: white;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	border-radius: 8px;
-	padding: 8px;
-	background-color: #ffffff95;
-	box-shadow: 3px rgb(145, 145, 145)0px rgba(182, 182, 182, 0.15);
-}
+	color: black;
+	background-color: #ffffffe2;
+	box-shadow: 3px 0px 2px rgba(0, 0, 0, 0.15);
 
-.container {
-	text-align: center;
 }
 
 .label {
-	color: white;
-	font-size: 22px;
-	position: right;
+	color: rgb(255, 255, 255);
+	font-size: 18px;
 }
 
-.labelFooter{
-	font-size: 12px;
+p {
+	position: absolute;
 	color: white;
+	top:96%;
+	left: 2%;
 }
