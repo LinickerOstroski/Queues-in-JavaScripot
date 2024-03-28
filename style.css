@@ -26,10 +26,18 @@
 }
 
 
-.lista {
+.listaCabecario{
 	position: absolute;
 	left: 10%;
 	top: 30%;
+	flex-grow: 0;
+	color: white;
+	font-size: 20px;
+}
+.lista {
+	position: absolute;
+	left: 10%;
+	top: 35%;
 	flex-grow: 0;
 	color: white;
 
@@ -40,8 +48,8 @@
 .formulario button,
 .formulario ul {
 	display: inline-block;
-	margin-left: 70%;
-	margin-top: 2%;
+	margin-left: 63%;
+	margin-top: 1.8%;
 }
 
 .txt {
@@ -65,11 +73,8 @@
 	margin-top: 5%;
 }
 
-.fila {
-	color: rgb(255, 255, 255);
-	margin-top: 20px;
-	margin-left: 60px;
-	margin-top: 20px;
+.lista{
+	font-size: 18px;
 }
 
 .botao {
@@ -86,7 +91,7 @@
 }
 
 .botoes {
-	margin-left: 70%;
+	margin-left: 63%;
 }
 
 .botoes button {
@@ -114,7 +119,8 @@
 
 p {
 	position: absolute;
-	color: white;
+	color: rgba(255, 255, 255, 0.568);
 	top:96%;
-	left: 2%;
+	left: 5%;
 }
+
