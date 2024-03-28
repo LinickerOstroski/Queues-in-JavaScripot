@@ -2,7 +2,7 @@
 
 Este é um projeto simples de uma fila de atendimento, desenvolvido em JavaScript, que permite registrar clientes com nome e CPF, armazená-los em uma fila e atendê-los conforme necessário. O projeto inclui uma classe `Atendimento` para representar os clientes e métodos para gerenciar a fila e registrar a data e hora atual.
 
-<img src="./sources/image.jpg" alt="Exemplo imagem" width="900px">
+<img src="./sources/image2.jpg" alt="Exemplo imagem" width="900px">
 
 ## Funcionalidades
 
