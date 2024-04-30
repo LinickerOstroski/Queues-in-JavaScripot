@@ -1,3 +1,6 @@
+# Observação
+Este repositório é dedicado exclusivamente para estudo e aprendizado. Por favor, esteja ciente de que os códigos aqui presentes podem não aderir às melhores práticas e arquitetura.
+
 # Projeto de Fila de Atendimento
 
 Este é um projeto simples de uma fila de atendimento, desenvolvido em JavaScript, que permite registrar clientes com nome e CPF, armazená-los em uma fila e atendê-los conforme necessário. O projeto inclui uma classe `Atendimento` para representar os clientes e métodos para gerenciar a fila e registrar a data e hora atual.
